@@ -56,7 +56,9 @@ If it stops working later, for example after swapping SIMs, re-enabling an eSIM 
 
 ## Download and build
 
-Every push to `main` builds a debug APK on GitHub Actions. Open the latest [Build run](https://github.com/KangweiZhu/Backup-Calling-Fixer-for-Pixel/actions/workflows/build.yml) and download `Backup-Calling-Fixer-debug-apk` under Artifacts (you need to be signed in to GitHub).
+Download the latest APK from [Releases](https://github.com/KangweiZhu/Backup-Calling-Fixer-for-Pixel/releases/latest). Every release is signed with the same key, so new versions install over old ones.
+
+Test builds of every push to `main` are under [Actions](https://github.com/KangweiZhu/Backup-Calling-Fixer-for-Pixel/actions/workflows/build.yml) → Artifacts (sign-in required). They use a different signature, so uninstall the release version before installing one.
 
 Or build it yourself:
 

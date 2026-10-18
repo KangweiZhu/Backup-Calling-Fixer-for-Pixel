@@ -56,7 +56,9 @@
 
 ## 下载与编译
 
-每次推送到 `main`，GitHub Actions 都会自动编译一个调试版 APK。打开最新一次 [Build](https://github.com/KangweiZhu/Backup-Calling-Fixer-for-Pixel/actions/workflows/build.yml)，在 Artifacts 里下载 `Backup-Calling-Fixer-debug-apk`（需要登录 GitHub）。
+在 [Releases](https://github.com/KangweiZhu/Backup-Calling-Fixer-for-Pixel/releases/latest) 下载最新的 APK。每个版本都用同一个密钥签名，新版本可以直接覆盖安装。
+
+每次推送到 `main` 的测试版在 [Actions](https://github.com/KangweiZhu/Backup-Calling-Fixer-for-Pixel/actions/workflows/build.yml) 的 Artifacts 里（需要登录 GitHub）。测试版签名不同，装之前要先卸载正式版。
 
 也可以自己编译：
 
