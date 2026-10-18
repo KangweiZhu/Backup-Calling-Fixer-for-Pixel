@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name" translatable="false">Backup Calling Fixer</string>
+
+    <string name="refresh">Refresh</string>
+    <string name="language">Language</string>
+    <string name="language_system">Follow system</string>
+    <string name="shizuku_connecting">Connecting to Shizuku…</string>
+    <string name="shizuku_not_running">Shizuku isn\'t running. Open Shizuku and start the service first.</string>
+    <string name="shizuku_too_old">Your Shizuku version is too old.</string>
+    <string name="shizuku_denied">Shizuku permission wasn\'t granted.</string>
+    <string name="service_not_connected">Not connected to the Shizuku service.</string>
+    <string name="running">Working…</string>
+    <string name="failed">Failed: %1$s</string>
+    <string name="status_failed">Couldn\'t read status: %1$s</string>
+    <string name="log_title">Activity log</string>
+
+    <string name="banner_ok">%1$s Wi-Fi Calling is working</string>
+    <string name="banner_bad">%1$s Wi-Fi Calling isn\'t registered</string>
+    <string name="banner_no_sim">No second SIM that needs Wi-Fi Calling</string>
+    <string name="via_cross_sim">Over %1$s mobile data (cross-SIM)</string>
+    <string name="via_wifi">Over Wi-Fi</string>
+    <string name="problem_auto_switch">“Switch mobile data automatically” is off</string>
+    <string name="problem_cross_sim">Backup calling is off</string>
+    <string name="problem_carrier">The carrier config doesn\'t allow cross-SIM calling</string>
+    <string name="problem_vpn">The current VPN covers iwlan (uid 1000)</string>
+    <string name="problem_iwlan_network">iwlan has no usable network</string>
+    <string name="problem_epdg">The ePDG tunnel isn\'t up</string>
+    <string name="problem_none">Everything looks right. Try “Re-register” below.</string>
+    <string name="fix_all">Fix everything</string>
+    <string name="kick">Re-register (toggle backup calling off and on)</string>
+
+    <string name="sim_data">%1$s · data SIM</string>
+    <string name="sim_meta">subId %1$d · slot %2$s</string>
+    <string name="auto_switch">Switch mobile data automatically</string>
+    <string name="auto_switch_hint">Backup calling follows this setting, so keep it on</string>
+    <string name="cross_sim">Backup calling (cross-SIM)</string>
+    <string name="carrier_allows">Carrier allows cross-SIM</string>
+    <string name="ims">IMS</string>
+    <string name="iwlan_network">iwlan network</string>
+    <string name="epdg_tunnel">ePDG tunnel</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="available">Available</string>
+    <string name="unavailable">Unavailable</string>
+    <string name="epdg_connected">Connected · network %1$s</string>
+    <string name="epdg_disconnected">Not connected</string>
+    <string name="tech_none">Not registered</string>
+    <string name="tech_lte">LTE</string>
+    <string name="tech_wifi">Wi-Fi</string>
+    <string name="tech_cross_sim">Cross-SIM</string>
+    <string name="tech_nr">5G</string>
+    <string name="tech_3g">3G</string>
+    <string name="error">Error: %1$s</string>
+
+    <string name="vpn">VPN</string>
+    <string name="current_vpn">Current VPN</string>
+    <string name="none">None</string>
+    <string name="iwlan_bypasses_vpn">iwlan bypasses the VPN</string>
+    <string name="vpn_by_google_list">VPN by Google exclusion list</string>
+    <string name="iwlan_excluded">Keep iwlan out of the VPN</string>
+    <string name="iwlan_excluded_hint">A system component, so Settings doesn\'t list it. Turning this on re-registers automatically.</string>
+    <string name="carrier_list_hint">Advanced: write the carrier app list instead. This replaces VPN by Google\'s whole list, so list your own carrier apps too (iwlan is added for you).</string>
+    <string name="carrier_list_button">Write carrier app list</string>
+    <string name="iwlan_label">iwlan (Wi-Fi Calling component)</string>
+    <plurals name="excluded_count">
+        <item quantity="one">%d app excluded</item>
+        <item quantity="other">%d apps excluded</item>
+    </plurals>
+
+    <string name="log_auto_switch_on">%1$s: switch mobile data automatically turned on</string>
+    <string name="log_auto_switch_off">%1$s: switch mobile data automatically turned off</string>
+    <string name="log_cross_sim_on">%1$s: backup calling turned on</string>
+    <string name="log_cross_sim_off">%1$s: backup calling turned off</string>
+    <string name="log_setting_failed">%1$s: couldn\'t change the setting (%2$s)</string>
+    <string name="log_kick">Re-registering %1$s, should be back in a few seconds</string>
+    <string name="log_kick_none">Nothing to re-register: backup calling is off on every non-data SIM</string>
+    <string name="log_kick_failed">Re-register failed: %1$s</string>
+    <string name="log_carrier_list">Carrier app list updated: %1$s</string>
+    <string name="log_iwlan_added">iwlan added to the exclusion list</string>
+    <string name="log_iwlan_removed">iwlan removed from the exclusion list</string>
+    <string name="log_iwlan_rejected">The system rejected the change</string>
+    <string name="log_iwlan_failed">Couldn\'t change the exclusion list: %1$s</string>
+    <string name="log_read_sims_failed">Couldn\'t read SIM info: %1$s</string>
+</resources>

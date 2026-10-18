@@ -1,0 +1,16 @@
+<resources>
+    <color name="bg">#121316</color>
+    <color name="card">#1E1F23</color>
+    <color name="text">#E8EAED</color>
+    <color name="subtext">#9AA0A6</color>
+    <color name="divider">#33353A</color>
+    <color name="ok">#81C995</color>
+    <color name="ok_bg">#1B3324</color>
+    <color name="bad">#F28B82</color>
+    <color name="bad_bg">#3C1F1E</color>
+    <color name="accent">#8AB4F8</color>
+    <color name="accent_bg">#1F2A3D</color>
+    <color name="ok_track">#2F5E3D</color>
+    <color name="switch_thumb_off">#9AA0A6</color>
+    <color name="switch_track_off">#5F6368</color>
+</resources>
