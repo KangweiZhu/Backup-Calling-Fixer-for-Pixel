@@ -1,0 +1,81 @@
+<resources>
+    <string name="refresh">刷新</string>
+    <string name="language">语言</string>
+    <string name="language_system">跟随系统</string>
+    <string name="shizuku_connecting">正在连接 Shizuku…</string>
+    <string name="shizuku_not_running">Shizuku 没在运行，请先打开 Shizuku 启动服务。</string>
+    <string name="shizuku_too_old">Shizuku 版本太旧了。</string>
+    <string name="shizuku_denied">没有拿到 Shizuku 授权。</string>
+    <string name="service_not_connected">还没连上 Shizuku 服务。</string>
+    <string name="running">处理中…</string>
+    <string name="failed">出错了：%1$s</string>
+    <string name="status_failed">读取状态出错：%1$s</string>
+    <string name="log_title">操作记录</string>
+
+    <string name="banner_ok">%1$s Wi-Fi 通话正常</string>
+    <string name="banner_bad">%1$s Wi-Fi 通话没注册上</string>
+    <string name="banner_no_sim">没找到需要 Wi-Fi 通话的第二张卡</string>
+    <string name="via_cross_sim">用的是 %1$s 的流量（跨卡）</string>
+    <string name="via_wifi">用的是 Wi-Fi</string>
+    <string name="problem_auto_switch">“自动切换移动数据”没开</string>
+    <string name="problem_cross_sim">备用通话没开</string>
+    <string name="problem_carrier">运营商配置不允许跨卡通话</string>
+    <string name="problem_vpn">当前 VPN 把 iwlan（uid 1000）也接管了</string>
+    <string name="problem_iwlan_network">iwlan 找不到能用的网络</string>
+    <string name="problem_epdg">ePDG 隧道没连上</string>
+    <string name="problem_none">设置都没问题，点下面的“重新注册”试试。</string>
+    <string name="fix_all">一键修复</string>
+    <string name="kick">重新注册（备用通话关掉再打开）</string>
+
+    <string name="sim_data">%1$s · 数据卡</string>
+    <string name="sim_meta">subId %1$d · 卡槽 %2$s</string>
+    <string name="auto_switch">自动切换移动数据</string>
+    <string name="auto_switch_hint">备用通话靠它打开，一定要开着</string>
+    <string name="cross_sim">备用通话（跨卡）</string>
+    <string name="carrier_allows">运营商允许跨卡通话</string>
+    <string name="ims">IMS</string>
+    <string name="iwlan_network">iwlan 网络</string>
+    <string name="epdg_tunnel">ePDG 隧道</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="available">可用</string>
+    <string name="unavailable">不可用</string>
+    <string name="epdg_connected">已连接 · 网络 %1$s</string>
+    <string name="epdg_disconnected">未连接</string>
+    <string name="tech_none">没注册</string>
+    <string name="tech_lte">LTE</string>
+    <string name="tech_wifi">Wi-Fi</string>
+    <string name="tech_cross_sim">跨卡</string>
+    <string name="tech_nr">5G</string>
+    <string name="tech_3g">3G</string>
+    <string name="error">出错了：%1$s</string>
+
+    <string name="vpn">VPN</string>
+    <string name="current_vpn">当前 VPN</string>
+    <string name="none">没有</string>
+    <string name="iwlan_bypasses_vpn">iwlan 不走 VPN</string>
+    <string name="vpn_by_google_list">VPN by Google 排除名单</string>
+    <string name="iwlan_excluded">让 iwlan 不走 VPN</string>
+    <string name="iwlan_excluded_hint">系统组件，设置里看不到。打开后会自动重新注册。</string>
+    <string name="carrier_list_hint">高级：改用运营商应用名单。会整份替换 VPN by Google 原来的名单，记得把你自己的运营商 app 也填上（iwlan 会自动加上）。</string>
+    <string name="carrier_list_button">写入运营商应用名单</string>
+    <string name="iwlan_label">iwlan（Wi-Fi 通话组件）</string>
+    <plurals name="excluded_count">
+        <item quantity="other">排除了 %d 个应用</item>
+    </plurals>
+
+    <string name="log_auto_switch_on">%1$s：已打开自动切换移动数据</string>
+    <string name="log_auto_switch_off">%1$s：已关闭自动切换移动数据</string>
+    <string name="log_cross_sim_on">%1$s：已打开备用通话</string>
+    <string name="log_cross_sim_off">%1$s：已关闭备用通话</string>
+    <string name="log_setting_failed">%1$s：没改成（%2$s）</string>
+    <string name="log_kick">%1$s 正在重新注册，几秒后就好</string>
+    <string name="log_kick_none">没有要重新注册的卡：非数据卡的备用通话都没开</string>
+    <string name="log_kick_failed">重新注册出错：%1$s</string>
+    <string name="log_carrier_list">运营商应用名单已更新：%1$s</string>
+    <string name="log_iwlan_added">iwlan 已加进排除名单</string>
+    <string name="log_iwlan_removed">iwlan 已从排除名单里移除</string>
+    <string name="log_iwlan_rejected">系统没让改</string>
+    <string name="log_iwlan_failed">排除名单没改成：%1$s</string>
+    <string name="log_read_sims_failed">读取 SIM 卡信息出错：%1$s</string>
+</resources>
